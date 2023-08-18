@@ -4,6 +4,6 @@
 {% include youtube.html id=Y5I8LIcDpRA %}
 
 <h2>Background</h2>
-<p>While there has been some novel advancements in text-to-3D in specific areas.  There has yet to be a fully end-to-end pipeline / model for creating fully textured 3D meshes in a reasonable amount of time. </p>
+<p>While there has been some novel advancements in text-to-3D in specific areas.  There has yet to be a fully end-to-end pipeline / model for creating fully textured 3D meshes in a reasonable amount of time.  COLLODI aims to push the needle of generativeAI for 3D forwards significantly.</p>
 <h2>Method</h2>
 By combining multiple state of the art methods into a single pipeline we demonstrate that COLLODI is capable of generating guidable 3D meshes from only text.  Current methods rely or focus on one area of 3D creation while COLLODI represents an end-to-end pipeline for 3D mesh generation that includes zero-shot + texturing resulting in high-fidelity objects.
