@@ -6,7 +6,7 @@
 <h2>Background</h2>
 <p>While there has been some novel advancements in text-to-3D in specific areas.  There has yet to be a fully end-to-end pipeline / model for creating fully textured 3D meshes in a reasonable amount of time.  COLLODI aims to push the needle of generativeAI for 3D forwards significantly.</p>
 <h2>Method</h2>
-<p>By combining multiple state of the art methods into a single pipeline we demonstrate that COLLODI is capable of generating guidable 3D meshes from only text.  Current methods rely or focus on one area of 3D creation while COLLODI represents an end-to-end pipeline for 3D mesh generation that includes zero-shot + texturing resulting in high-fidelity objects.</p>
+<p>By combining multiple state of the art methods into a single pipeline we demonstrate that COLLODI is capable of generating guidable 3D meshes from only text.  Current methods rely or focus on one area of 3D creation while COLLODI represents an end-to-end pipeline for 3D mesh generation that includes text or image + texturing resulting in high-fidelity objects.</p>
 <h3>Zero-Shot (Mesh creation)</h3>
 <p>Unlike recent work on 3D generative models which produce a single output representation, COLLODI directly generates the parameters of implicit functions that can be rendered as both textured meshes and neural radiance fields. We train COLLODI in two stages: first, we train an encoder that deterministically maps 3D assets into the parameters of an implicit function; second, we train a conditional diffusion model on outputs of the encoder. When trained on a large dataset of paired 3D and text data, our resulting models are capable of generating complex and diverse 3D assets in a matter of seconds.</p>
 <h3>One-Shot (Mesh creation)</h3>
